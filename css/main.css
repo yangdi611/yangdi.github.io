@@ -184,86 +184,20 @@ h6 {
 h1 {
   font-size: 22px;
 }
-h1 code {
-  font-size: 1em;
-}
-@media (max-width: 767px) {
-  h1 {
-    font-size: 18px;
-  }
-  h1 code {
-    font-size: 1em;
-  }
-}
 h2 {
   font-size: 20px;
-}
-h2 code {
-  font-size: 1em;
-}
-@media (max-width: 767px) {
-  h2 {
-    font-size: 16px;
-  }
-  h2 code {
-    font-size: 1em;
-  }
 }
 h3 {
   font-size: 18px;
 }
-h3 code {
-  font-size: 1em;
-}
-@media (max-width: 767px) {
-  h3 {
-    font-size: 14px;
-  }
-  h3 code {
-    font-size: 1em;
-  }
-}
 h4 {
   font-size: 16px;
-}
-h4 code {
-  font-size: 1em;
-}
-@media (max-width: 767px) {
-  h4 {
-    font-size: 12px;
-  }
-  h4 code {
-    font-size: 1em;
-  }
 }
 h5 {
   font-size: 14px;
 }
-h5 code {
-  font-size: 1em;
-}
-@media (max-width: 767px) {
-  h5 {
-    font-size: 10px;
-  }
-  h5 code {
-    font-size: 1em;
-  }
-}
 h6 {
   font-size: 12px;
-}
-h6 code {
-  font-size: 1em;
-}
-@media (max-width: 767px) {
-  h6 {
-    font-size: 8px;
-  }
-  h6 code {
-    font-size: 1em;
-  }
 }
 p {
   margin: 0 0 20px 0;
@@ -511,7 +445,6 @@ code {
   color: #555;
   background: #eee;
   border-radius: 3px;
-  font-size: 14px;
 }
 pre {
   overflow: auto;
@@ -1102,6 +1035,7 @@ pre .javascript .function {
   color: #fff;
   background: #222;
   border-bottom: none;
+  line-height: 22px;
 }
 .brand:hover {
   color: #fff;
@@ -1115,8 +1049,8 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 36px;
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 22px;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -1533,7 +1467,7 @@ pre .javascript .function {
 .post-nav-item a {
   position: relative;
   display: block;
-  line-height: 25px;
+  line-height: 1.6;
   font-size: 14px;
   color: #555;
   border-bottom: none;
@@ -1681,7 +1615,7 @@ pre .javascript .function {
 .site-description {
   margin-top: 5px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
 }
 .links-of-author {
@@ -1705,7 +1639,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9ecb83;
+  background: #ff21dd;
 }
 .feed-link,
 .chat {
@@ -1722,7 +1656,6 @@ pre .javascript .function {
 .feed-link a i,
 .chat a i {
   color: #fc6423;
-  font-size: 14px;
 }
 .feed-link a:hover,
 .chat a:hover {
@@ -1929,10 +1862,10 @@ pre .javascript .function {
   text-align: center;
   color: inherit;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
 }
 .site-state-item-name {
-  font-size: 13px;
+  font-size: 14px;
   color: inherit;
 }
 .footer {
@@ -2033,7 +1966,7 @@ pre .javascript .function {
   border-radius: 50%;
 }
 .page-archive .fa-external-link {
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 5px;
 }
 .category-all-page .category-all-title {
@@ -2262,7 +2195,6 @@ embed {
 }
 .custom-logo .site-title {
   margin: 10px auto 0;
-  font-size: 24px;
   color: #222;
 }
 .custom-logo .site-title a {
@@ -2357,21 +2289,6 @@ embed {
 }
 .site-search form {
   display: none;
-}
-.sidebar {
-  right: auto;
-  left: 0;
-}
-.sidebar-toggle,
-.back-to-top {
-  right: auto;
-  left: 30px;
-}
-@media (max-width: 991px) {
-  .sidebar-toggle,
-  .back-to-top {
-    left: 20px;
-  }
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
